@@ -8,7 +8,7 @@ $(document).ready(function () {
         localStorage.removeItem('session_token');
     }
 
-    // Switched from form submit to strict button click
+    //  button click not form submit 
     $('#loginBtn').on('click', function () {
         const email = $('#email').val().trim();
         const password = $('#password').val();
